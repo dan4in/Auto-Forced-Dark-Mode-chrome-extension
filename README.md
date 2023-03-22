@@ -17,3 +17,6 @@ Navigate to any website that you want to view in dark mode.
 
 Google Chrome
 Mozilla Firefox
+
+***this is not plug and play ready***
+***Might Need Fixing*** 
