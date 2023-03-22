@@ -1,3 +1,6 @@
+*****This is My project *******Eclipse******* i was working on and never had the time to finish it*****
+
+
 **Forced Dark Mode Extension**
 This is a simple browser extension that enables dark mode on any website. The extension works by injecting code that overrides the default website styling with a dark theme.
 
@@ -18,5 +21,6 @@ Navigate to any website that you want to view in dark mode.
 Google Chrome
 Mozilla Firefox
 
-***this is not plug and play***
+***this is not Fully Ready but it kinda works in a way***
 ***Might Need Fixing*** 
+
