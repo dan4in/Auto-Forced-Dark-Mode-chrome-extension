@@ -1,0 +1,40 @@
+/* Target all text on the page */
+* {
+  color: #ffff00 !important;
+}
+
+/* Target all headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffff00 ;
+}
+
+/* Target all paragraphs */
+p {
+  color: #ffff00;
+}
+
+/* Target all list items */
+li {
+  color: #ffff00;
+}
+
+/* Target all text inputs */
+input[type="text"], input[type="email"], input[type="password"] {
+  color: #ffffe0;
+}
+
+/* Target all numbers */
+:matches(h1, h2, h3, h4, h5, h6, p, li, input[type="text"], input[type="email"], input[type="password"]):matches(:contains('0'), :contains('1'), :contains('2'), :contains('3'), :contains('4'), :contains('5'), :contains('6'), :contains('7'), :contains('8'), :contains('9')) {
+  color: #ffffe0;
+}
+/*This stylesheet targets all text on the page and sets the color to black by default. It then targets headings, paragraphs, list items, and text inputs separately and changes their color to yellow. Finally, it uses a combination of CSS selectors to target all numbers on the page, regardless of where they appear, and changes their color to yellow as well.*/
+/* Target all numbers except on youtube.com */
+:not([href*="youtube.com"]) :matches(h1, h2, h3, h4, h5, h6, p, li, input[type="text"], input[type="background-color"], input[type="email"], input[type="password"]) :matches(:contains('0'), :contains('1'), :contains('2'), :contains('3'), :contains('4'), :contains('5'), :contains('6'), :contains('7'), :contains('8'), :contains('9')) {
+  color: yellow;
+  background-color: inherit !important;
+}
+
+
+
+
+

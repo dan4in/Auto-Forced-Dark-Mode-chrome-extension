@@ -1,0 +1,22 @@
+/* Check if the background color of the page is white */
+body:not([style*="background-color:"]),
+body:not([style*="background-color:"]) *,
+#body:not([style*="background-color:"]), 
+html[style*="background-color: #fff"],
+html[style*="background-color:#fff"],
+html[style*="background-color: #ffffff"],
+html[style*="background-color:#ffffff"],
+html[style*="background:#fff"],
+html[style*="background:#ffffff"] {
+  background-color: #000000 !important; /* Change the background color to a dark color */
+
+/* Override background colors of specific elements */
+
+[class*="container"], [class*="Container"], [class*="wrapper"], [class*="Wrapper"], .main, #content, [class*="page"], [class*="Page"], [class*="content"], [class*="Content"], [class*="body"], [class*="Body"] {
+background-color: #000 !important;{
+}
+
+/* Reduce the opacity of images and videos */
+img, video {
+  opacity: 0.9;
+}
