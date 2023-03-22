@@ -1,5 +1,5 @@
 **Forced Dark Mode Extension**
-This is a simple browser extension that enables dark mode on any website. The extension works by injecting CSS code that overrides the default website styling with a dark theme.
+This is a simple browser extension that enables dark mode on any website. The extension works by injecting code that overrides the default website styling with a dark theme.
 
 **Installation**
 To install the extension, follow these steps:
